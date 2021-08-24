@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  /* width: 320px; */
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+#app h2 {
+  text-align: center;
+  /* color: rgb(138, 43, 226); */
+  color: rgb(133, 69, 69);
+  font-size: 2rem;
+}
+
+#app button {
+  /* padding: 30px 100px; */
+  margin: 0 auto;
+}
+
+.person {
+  width: 280px;
+  height: 310px;
+  padding: 30px 20px;
+  margin: 30px auto;
+  border: 2px solid rgb(88, 61, 61);
+  border-radius: 20px;
+  position: relative;
+}
+
+.person img {
+  position: absolute;
+  top: 8%;
+  left: 25%;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.person-details {
+  position: absolute;
+  top: 60%;
+  left: 18%;
+}
+
+.person-details h3,
+p {
+  font-size: 1.5rem;
+  color: rgb(105, 74, 33);
+}
+.person-details p {
+  font-weight: bolder;
+}
+
+.person-details span {
+  font-size: 1.3rem;
+  font-style: oblique;
+}
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  /* margin: 0 auto; */
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+button:focus {
+  outline: none;
+}
+
+.male {
+  border-color: rgb(27, 140, 185);
+  background-color: rgb(27, 140, 185);
+  color: #fff;
+}
+
+.female {
+  border-color: rgb(224, 27, 93);
+  background-color: rgb(224, 27, 93);
+  color: #fff;
+}
